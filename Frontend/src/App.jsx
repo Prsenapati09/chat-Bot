@@ -46,7 +46,7 @@ export default function ChatBot() {
 
     try {
       // 2. Axios Call
-      const response = await axios.post('http://localhost:3000/api/chat/response', { 
+      const response = await axios.post('https://neo-aichatbot.vercel.app/api/chat/response', { 
         message: userMessage 
       });
 
